@@ -1,0 +1,12 @@
+*.exe
+M_Pav_AP-12_LW/x64/Debug/*.obj
+M_Pav_AP-12_LW/x64/Debug/*.recipe
+M_Pav_AP-12_LW/x64/Debug/*.ilk
+M_Pav_AP-12_LW/x64/Debug/*.log
+M_Pav_AP-12_LW/x64/Debug/*.idb
+M_Pav_AP-12_LW/x64/Debug/*.obj
+M_Pav_AP-12_LW/x64/Debug/M_Pav_AP-12_LW.tlog/*.tlog
+M_Pav_AP-12_LW/x64/Debug/M_Pav_AP-12_LW.tlog/*.lastbuildstate
+M_Pav_AP-12_LW/x64/Debug/M_Pav_AP-12_LW.tlog/*.pdb
+x64/Debug/*.exe
+x64/Debug/*.pdb
