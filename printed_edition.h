@@ -15,8 +15,8 @@ public:
     PrintedEdition(const std::string& title, int pages, double price);
     virtual ~PrintedEdition();
 
-    virtual void input();
-    virtual void display() const;
+    virtual void input() = 0;
+    virtual void display() const = 0;
 
     double getPrice() const { return price; }
 

@@ -46,7 +46,7 @@ void start_LW_3(void) {
     processResults(results, count, product);
 
     std::cout << "\nКількість значень y: " << count << std::endl;
-    if (count > 0) {
+    if (count > 0 && count < 10) {
         std::cout << "Добуток значень y: " << product << std::endl;
     }
     else {

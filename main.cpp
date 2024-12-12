@@ -11,6 +11,7 @@
 #include "M_Pav_AP-12_LW7.h"
 #include "M_Pav_AP-12_LW8.h"
 #include "M_Pav_AP-12_LW9.h"
+#include "M_Pav_AP-12_LW10.h"
 
 using namespace std;
 
@@ -24,12 +25,15 @@ void displayMenu(int selected) {
         "6. Laboratory work 6",
         "7. Laboratory work 7",
         "8. Laboratory work 8",
-        "9. Laboratory work 9"
+        "9. Laboratory work 9",
+        "10. Laboratory work 10",
+        "11. Laboratory work 11",
+        "12. Laboratory work 12"
     };
 
     system("cls");
 
-    for (int i = 0; i < 9; ++i) {
+    for (int i = 0; i < 12; ++i) {
         if (i == selected) {
             cout << "-> ";
         }
@@ -52,7 +56,9 @@ void executeFunction(int choice) {
     case 6: start_LW_7(); break;
     case 7: start_LW_8(); break;
     case 8: start_LW_9(); break;
-    case 9: start_LW_8(); break;
+    case 9: start_LW_10(); break;
+    case 10: start_LW_8(); break;
+    case 11: start_LW_8(); break;
     default: cout << "An unknown choice\n"; break;
     }
     cout << "\nPress ESC to return to the menu...\n";
@@ -74,7 +80,7 @@ int main() {
             if (selectedOption > 0) selectedOption--;
             break;
         case 80:  // Down
-            if (selectedOption < 8) selectedOption++;
+            if (selectedOption < 11) selectedOption++;
             break;
         case 13:  // Enter
             executeFunction(selectedOption);

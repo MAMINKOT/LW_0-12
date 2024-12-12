@@ -134,6 +134,7 @@
     <ClCompile Include="magazine.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="M_Pav_AP-12_LW1.cpp" />
+    <ClCompile Include="M_Pav_AP-12_LW10.cpp" />
     <ClCompile Include="M_Pav_AP-12_LW2.cpp" />
     <ClCompile Include="M_Pav_AP-12_LW3.cpp" />
     <ClCompile Include="M_Pav_AP-12_LW4.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="library_manager.h" />
     <ClInclude Include="magazine.h" />
     <ClInclude Include="M_Pav_AP-12_LW1.h" />
+    <ClInclude Include="M_Pav_AP-12_LW10.h" />
     <ClInclude Include="M_Pav_AP-12_LW2.h" />
     <ClInclude Include="M_Pav_AP-12_LW3.h" />
     <ClInclude Include="M_Pav_AP-12_LW4.h" />

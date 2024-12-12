@@ -63,6 +63,9 @@
     <ClCompile Include="library_manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="M_Pav_AP-12_LW10.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="animals.h">
@@ -108,6 +111,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="library_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M_Pav_AP-12_LW10.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

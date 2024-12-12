@@ -11,8 +11,8 @@ public:
     Magazine();
     Magazine(const std::string& title, int pages, double price, int issueNumber);
 
-    void input() override;
-    void display() const override;
+    void input();
+    void display() const;
 
     friend class LibraryManager;
 };
